@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Author: Dave Lasley <dave@laslabs.com>
-#    Copyright: 2015 LasLabs, Inc.
+#    Copyright: 2014-TODAY LasLabs, Inc. [https://laslabs.com]
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,4 +18,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp import models, fields, api
+
+def migrate(cr, version):
+    """Update database from previous versions, before updating module."""
+    pass
