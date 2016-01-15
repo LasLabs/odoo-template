@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2014-TODAY LasLabs, Inc. [https://laslabs.com]
+    @author Dave Lasley <dave@laslabs.com>
+    The licence is in the file __openerp__.py
+-->
+
+<openerp>
+    <data>
+
+        <!-- New form view -->
+        <record id="model_name_view_form" model="ir.ui.view">
+            <field name="name">model.name.view.form</field>
+            <field name="model">model.name</field>
+            <field name="arch" type="xml">
+                <form string="My Data">
+                    <header />
+                    <sheet>
+                        <group name="data">
+                            <!-- <field name="derp" /> -->
+                        </group>
+                    </sheet>
+                    <footer />
+                </form>
+            </field>
+        </record>
+
+        <!-- New tree view -->
+        <record id="model_name_view_tree" model="ir.ui.view">
+            <field name="name">model.name.view.tree</field>
+            <field name="model">model.name</field>
+            <field name="arch" type="xml">
+                <tree string="My Datas">
+                    <!-- <field name="derp" /> -->
+                </tree>
+            </field>
+        </record>
+
+        <!-- New search view -->
+        <record id="model_name_view_tree" model="ir.ui.view">
+            <field name="name">model.name.view.tree</field>
+            <field name="model">model.name</field>
+            <field name="arch" type="xml">
+                <search string="My Datas">
+                    <!-- <field name="is_derp" /> -->
+                    <!-- <filter string="Is A Derp" domain="[]" context="{'group_by':'is_derp'}" -->
+                </search>
+            </field>
+        </record>
+
+        <!-- Inherited view -->
+        <record id="form_view" model="ir.ui.view">
+            <field name="name">My view description</field>
+            <field name="model">model.name</field>
+            <field name="inherit_id" ref="othermodule.form_view"/>
+            <field name="arch" type="xml">
+                <!-- My view modifications -->
+                <!-- <xpath expr="//field[@name['derp']]" position="after"> -->
+            </field>
+        </record>
+
+    </data>
+</openerp>

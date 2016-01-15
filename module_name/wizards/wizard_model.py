@@ -18,17 +18,14 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-    'name': '',
-    'version': '8.0.0.0.0',
-    'category': '',
-    'author': "LasLabs",
-    'license': 'AGPL-3',
-    'website': 'https://laslabs.com',
-    'depends': [
-    ],
-    'data': [
-    ],
-    'installable': True,
-    'application': False,
-}
+
+from openerp import api, models
+
+
+class WizardModel(models.TransientModel):
+    _name = "module.wizard_model"
+
+    @api.multi
+    def action_accept(self):
+        self.ensure_one()
+        self.do_something_useful()

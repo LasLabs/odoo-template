@@ -18,17 +18,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-    'name': '',
-    'version': '8.0.0.0.0',
-    'category': '',
-    'author': "LasLabs",
-    'license': 'AGPL-3',
-    'website': 'https://laslabs.com',
-    'depends': [
-    ],
-    'data': [
-    ],
-    'installable': True,
-    'application': False,
-}
+
+def migrate(cr, version):
+    """Update database from previous versions, after updating module."""
+    pass
