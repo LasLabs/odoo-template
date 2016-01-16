@@ -37,7 +37,7 @@ Credits
 Images
 ------
 
-* LasLabs: `Icon <https://repo.laslabs.com/projects/TEM/repos/odoo-module_template/browse/static/description/icon.svg?raw>`_.
+* LasLabs: `Icon <https://repo.laslabs.com/projects/TEM/repos/odoo-module_template/browse/module_name/static/description/icon.svg?raw>`_.
 
 Contributors
 ------------
