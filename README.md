@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/laslabs/odoo-repo_name.svg?branch=8.0)](https://travis-ci.org/laslabs/odoo-repo_name)
-[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-repo_name/badge.png?branch=8.0)](https://coveralls.io/r/LasLabs/odoo-repo_name?branch=8.0)
+[![Build Status](https://travis-ci.org/laslabs/odoo-module_template.svg?branch=8.0)](https://travis-ci.org/laslabs/odoo-module_template)
+[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=8.0)](https://coveralls.io/r/LasLabs/odoo-module_template?branch=8.0)
 
 {Description of Module Package}
 =============================
@@ -40,4 +40,4 @@ Maintainer
 
 This module is maintained by [LasLabs Inc.](https://laslabs.com)
 
-* https://repo.laslabs.com/projects/ODOO/repos/repo_name
+* https://repo.laslabs.com/projects/ODOO/repos/module_template
