@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/laslabs/odoo-module_template.svg?branch=8.0)](https://travis-ci.org/laslabs/odoo-module_template)
-[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=8.0)](https://coveralls.io/r/LasLabs/odoo-module_template?branch=8.0)
+[![Build Status](https://travis-ci.org/laslabs/odoo-module_template.svg?branch=9.0)](https://travis-ci.org/laslabs/odoo-module_template)
+[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=9.0)](https://coveralls.io/r/LasLabs/odoo-module_template?branch=9.0)
 
 {Description of Module Package}
 =============================
@@ -15,14 +15,14 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[module_name](module_name/) | 8.0.0.0.0 | Template module
+[module_name](module_name/) | 9.0.0.0.0 | Template module
 
 
 Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[module_name](module_name/) | 8.0.0.0.0 | Template module
+[module_name](module_name/) | 9.0.0.0.0 | Template module
 
 
 [//]: # (end addons)

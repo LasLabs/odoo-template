@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Author: Dave Lasley <dave@laslabs.com>
-#    Copyright: 2014-TODAY LasLabs, Inc. [https://laslabs.com]
+#    Copyright: 2016-TODAY LasLabs, Inc. [https://laslabs.com]
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,7 +22,7 @@
 {
     "name": "Module name",
     "summary": "Module summary",
-    "version": "8.0.1.0.0",
+    "version": "9.0.1.0.0",
     "category": "Uncategorized",
     "website": "https://laslabs.com/",
     "author": "LasLabs",
