@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/laslabs/odoo-module_template.svg?branch=9.0)](https://travis-ci.org/laslabs/odoo-module_template)
-[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=9.0)](https://coveralls.io/r/LasLabs/odoo-module_template?branch=9.0)
+[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=9.0)](https://coveralls.io/r/LasLabs/odoo-module_template)
 
 {Description of Module Package}
 =============================
