@@ -1,10 +1,7 @@
-/*****************************************************************************
-*
-*    Author: Dave Lasley <dave@laslabs.com>
-*    Copyright: 2016-TODAY LasLabs, Inc. [https://laslabs.com]
-*    License: is in file __openerp__.py
-*
-*****************************************************************************/
+/**
+*    Copyright 2016 LasLabs Inc.
+*    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+**/
 
 .some-class {
     font-size: 12pt;

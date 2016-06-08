@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/laslabs/odoo-module_template.svg?branch=9.0)](https://travis-ci.org/laslabs/odoo-module_template)
-[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-module_template/badge.png?branch=9.0)](https://coveralls.io/r/LasLabs/odoo-module_template)
+[![Build Status](https://travis-ci.org/laslabs/odoo-{project_repo}.svg?branch=9.0)](https://travis-ci.org/laslabs/odoo-{project_repo}?branch=9.0)
+[![Coverage Status](https://coveralls.io/repos/laslabs/odoo-{project_repo}/badge.png?branch=9.0)](https://coveralls.io/r/laslabs/odoo-{project_repo}?branch=9.0)
 
 {Description of Module Package}
-=============================
+===============================
 
 This project aim to deal with modules related to manage...
 
@@ -40,4 +40,5 @@ Maintainer
 
 This module is maintained by [LasLabs Inc.](https://laslabs.com)
 
-* https://repo.laslabs.com/projects/ODOO/repos/module_template
+* https://github.com/LasLabs/odoo-{project_repo}
+* https://repo.laslabs.com/projects/ODOO/repos/{project_repo}

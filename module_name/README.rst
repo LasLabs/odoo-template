@@ -30,6 +30,18 @@ To use this module, you need to:
 
 * Go to ...
 
+Known Issues / Roadmap
+======================
+
+* ...
+
+Bug Tracker
+===========
+
+Bugs are tracked on `GitHub Issues
+<https://github.com/LasLabs/{project_repo}/issues>`_. In case of trouble, please
+check there if your issue has already been reported. If you spotted it first,
+help us to smash it by providing detailed and welcomed feedback.
 
 Credits
 =======
@@ -42,7 +54,7 @@ Images
 Contributors
 ------------
 
-* Firstname Lastname <email.address@laslabs.com>
+* Firstname Lastname <my_email@laslabs.com>
 
 Maintainer
 ----------
