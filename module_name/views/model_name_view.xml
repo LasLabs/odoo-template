@@ -1,87 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-    Copyright (C) 2016-TODAY LasLabs, Inc. [https://laslabs.com]
-    @author Dave Lasley <dave@laslabs.com>
-    @license AGPL-3
+    Copyright 2016 LasLabs Inc.
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 -->
 
-<openerp>
-    <data>
+<odoo>
 
-        <!-- New form view -->
-        <record id="model_name_view_form" model="ir.ui.view">
-            <field name="name">model.name.view.form</field>
-            <field name="model">model.name</field>
-            <field name="arch" type="xml">
-                <form string="My Data">
-                    <header />
-                    <sheet>
-                        <group name="data">
-                            <!-- <field name="derp" /> -->
-                        </group>
-                    </sheet>
-                    <footer />
-                </form>
-            </field>
-        </record>
-
-        <!-- New tree view -->
-        <record id="model_name_view_tree" model="ir.ui.view">
-            <field name="name">model.name.view.tree</field>
-            <field name="model">model.name</field>
-            <field name="arch" type="xml">
-                <tree string="My Datas">
-                    <!-- <field name="derp" /> -->
-                </tree>
-            </field>
-        </record>
-
-        <!-- New search view -->
-        <record id="model_name_view_search" model="ir.ui.view">
-            <field name="name">model.name.view.search</field>
-            <field name="model">model.name</field>
-            <field name="arch" type="xml">
-                <search string="My Datas">
-                    
-                    <!-- Allow searching by:
-                    <field name="is_derp" />
-                    -->
-                    
-                    <!-- Separate (allthethings)
-                    <newline />
-                    -->
-                    
-                    <!-- Allow grouping by:
-                    <group expand="0" string="Group By">
-                        <filter string="Is A Derp"
-                                domain=""
-                                context="{'group_by': 'is_derp'}" />
+    <!-- New form view -->
+    <record id="model_name_view_form" model="ir.ui.view">
+        <field name="name">model.name.view.form</field>
+        <field name="model">model.name</field>
+        <field name="arch" type="xml">
+            <form string="My Data">
+                <header />
+                <sheet>
+                    <group name="data">
+                        <!-- <field name="derp" /> -->
                     </group>
-                    -->
-                </search>
-            </field>
-        </record>
-        
-        <!-- New Action -->
-        <record id="model_name_action" model="ir.actions.act_window">
-             <field name="name">My Datas</field>
-             <field name="res_model">model.name</field>
-             <field name="type">ir.actions.act_window</field>
-             <field name="view_type">tree</field>
-             <field name="view_mode">tree,form</field>
-         </record>
+                </sheet>
+                <footer />
+            </form>
+        </field>
+    </record>
 
-        <!-- Inherited view -->
-        <record id="form_view" model="ir.ui.view">
-            <field name="name">My view description</field>
-            <field name="model">model.name</field>
-            <field name="inherit_id" ref="othermodule.form_view"/>
-            <field name="arch" type="xml">
-                <!-- My view modifications -->
-                <!-- <xpath expr="//field[@name['derp']]" position="after"> -->
-            </field>
-        </record>
+    <!-- New tree view -->
+    <record id="model_name_view_tree" model="ir.ui.view">
+        <field name="name">model.name.view.tree</field>
+        <field name="model">model.name</field>
+        <field name="arch" type="xml">
+            <tree string="My Datas">
+                <!-- <field name="derp" /> -->
+            </tree>
+        </field>
+    </record>
 
-    </data>
-</openerp>
+    <!-- New search view -->
+    <record id="model_name_view_search" model="ir.ui.view">
+        <field name="name">model.name.view.search</field>
+        <field name="model">model.name</field>
+        <field name="arch" type="xml">
+            <search string="My Datas">
+                
+                <!-- Allow searching by:
+                <field name="is_derp" />
+                -->
+                
+                <!-- Separate (allthethings)
+                <newline />
+                -->
+                
+                <!-- Allow grouping by:
+                <group expand="0" string="Group By">
+                    <filter string="Is A Derp"
+                            domain=""
+                            context="{'group_by': 'is_derp'}" />
+                </group>
+                -->
+            </search>
+        </field>
+    </record>
+    
+    <!-- New Action -->
+    <record id="model_name_action" model="ir.actions.act_window">
+         <field name="name">My Datas</field>
+         <field name="res_model">model.name</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="view_type">tree</field>
+         <field name="view_mode">tree,form</field>
+     </record>
+
+    <!-- Inherited view -->
+    <record id="name_of_view" model="ir.ui.view">
+        <field name="name">My view description</field>
+        <field name="model">model.name</field>
+        <field name="inherit_id" ref="othermodule.name_of_view"/>
+        <field name="arch" type="xml">
+            <!-- My view modifications -->
+            <!-- <xpath expr="//field[@name['derp']]" position="after"> -->
+        </field>
+    </record>
+
+</odoo>

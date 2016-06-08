@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-    @copyright (C) 2016-TODAY LasLabs, Inc. [https://laslabs.com]
-    @author Dave Lasley <dave@laslabs.com>
-    @license AGPL-3
+    Copyright 2016 LasLabs Inc.
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 -->
 
-<openerp>
-    <data>
+<odoo>
 
-        <template id="assets_backend"
-                  name="Module name backend assets"
-                  inherit_id="web.assets_backend">
-            <xpath expr=".">
-                <link rel="stylesheet"
-                      href="/module/static/src/css/module_name.css"/>
-                <script type="text/javascript"
-                        src="/module/static/src/js/module_name.js"/>
-            </xpath>
-        </template>
-        
-        <template id="assets_frontend"
-                  name="Module name frontend assets"
-                  inherit_id="website.assets_frontend">
-            <xpath expr=".">
-                <link rel="stylesheet"
-                      href="/module/static/src/css/module_name.css"/>
-                <script type="text/javascript"
-                        src="/module/static/src/js/module_name.js"/>
-            </xpath>
-        </template>
+    <template id="assets_backend"
+              name="Module name backend assets"
+              inherit_id="web.assets_backend"
+              >
+        <xpath expr="//script[last()]">
+            <link rel="stylesheet"
+                  type="text/css"
+                  href="/module/static/src/css/module_name.css"
+                  />
+            <script type="text/javascript"
+                    src="/module/static/src/js/module_name.js"
+                    />
+        </xpath>
+    </template>
+    
+    <template id="assets_frontend"
+              name="Module name frontend assets"
+              inherit_id="website.assets_frontend"
+              >
+        <xpath expr="//script[last()]">
+            <link rel="stylesheet"
+                  type="text/css"
+                  href="/module/static/src/css/module_name.css"
+                  />
+            <script type="text/javascript"
+                    src="/module/static/src/js/module_name.js"
+                    />
+        </xpath>
+    </template>
 
-    </data>
-</openerp>
+</odoo>
